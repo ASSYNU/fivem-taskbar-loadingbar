@@ -1,5 +1,5 @@
 # Fivem-Loadingbar
-Optimized Loadingbar script with configurable time and text.
+Optimized Loadingbar script with configurable time and text!
 
 # Discord
 My discord server: https://discord.gg/m3dDCMd7kJ
