@@ -9,7 +9,7 @@ $(document).ready(function () {
     if (data.which == 69) {
       closeMain();
       $.post(
-        'https://Assynu_Taskbar/taskEnd',
+        'https://assynu_taskbar/taskEnd',
         JSON.stringify({ taskResult: percent })
       );
     }
@@ -50,7 +50,7 @@ $(document).ready(function () {
     if (item.closeFail === true) {
       closeMain();
       $.post(
-        'https://Assynu_Taskbar/taskCancel',
+        'https://assynu_taskbar/taskCancel',
         JSON.stringify({ tasknum: curTask })
       );
     }

@@ -1,23 +1,18 @@
 fx_version 'cerulean'
-games { 'gta5' }
+game 'gta5'
+lua54 'yes'
 
-author 'Assynu'
-description 'NP Style Loading Bar'
-version '1.0.0'
 
-ui_page 'html/index.html'
+ui_page 'index.html'
 
 files {
-  "html/index.html",
-  "html/index.js",
-  "html/index.css"
+  "index.html",
+  "scripts.js",
+  "css/style.css"
 }
 client_script {
-  "client/cl_main.js",
-  -- Showcase
-  "client/cl_demo.js",
-  "client/cl_demo.lua",
+  "client.lua",
 }
 
-export "StartLoadingbar"
+export "taskBar"
 export "closeGuiFail"
